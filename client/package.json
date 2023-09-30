@@ -1,0 +1,25 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "sample for react app",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dinson",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "bootstrap": "^5.2.3",
+    "mongoose": "^7.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.11.1"
+  }
+}

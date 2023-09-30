@@ -1,0 +1,41 @@
+.admin-nav {
+    background-color: #ada9a9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .admin-nav img{
+    width: 100px;
+  }
+  .admin-nav img:hover{
+    scale: 1.2;
+    cursor: pointer;
+  }
+  .admin-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-nav li {
+    display: inline;
+  }
+  
+  .admin-nav li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .admin-nav li a:hover {
+    background-color: #ddd;
+  }
+  
+  .admin-nav li a.active {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
