@@ -6,8 +6,8 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 
 const filtering = (text, data) => {
-  const filteredData = data.filter((item) => {
-    const item = item.data.area.toLowerCase().includes(text.toLowerCase())
+  const filteredData = data.filter((ite) => {
+    const item = ite.data.area.toLowerCase().includes(text.toLowerCase())
     return item.data.name.toLowerCase().includes(text.toLowerCase());
   });
   return filteredData;
